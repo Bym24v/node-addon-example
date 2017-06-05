@@ -5,7 +5,7 @@ class Test {
 
 public:
 
-  static int DisplayMessageBox()
+  int DisplayMessageBox()
   {
        int msgboxID = MessageBox(
           NULL,
