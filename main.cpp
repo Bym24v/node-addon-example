@@ -43,7 +43,7 @@ void Add(const FunctionCallbackInfo<Value>& args) {
 
   // Instance Class
   // Display MessageBox
-  Test* m;
+  Test* m = new Test();
   m->DisplayMessageBox();
 
   // Set the return value (using the passed in
